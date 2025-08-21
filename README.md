@@ -1,64 +1,56 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-A customizable Flutter widget that adds a smooth shimmer effect to text.  
-Perfect for headings, titles, or adding a premium animated look to your app’s UI.  
-Supports custom colors, font, size, letter spacing, and animation duration.
+ShimmerText Flutter Package
+A customizable Flutter widget that applies a smooth shimmer animation to your text—ideal for headings, titles, premium effects, or loading states. Enjoy extensive customization for colors, fonts, size, letter spacing, and animation duration.
 
 ## ✨ Features
+🚀 Smooth shimmer animation for any text
 
-- 🚀 Adds a smooth **shimmer animation** to any text
-- 🎨 Fully **customizable**:
-  - `text` → your string
-  - `textSize` → default: `14`
-  - `textColor` → default: `Colors.white`
-  - `letterSpacing` → default: `1`
-  - `textFamily` → choose your font
-  - `shimmerColors` → pass your own gradient colors
-  - `duration` → control animation speed
-- 🎭 Works with **any font family**
-- ⚡ Lightweight and easy to use
-- 📱 Perfect for headings, titles, loading states, or premium effects
+🎨 Fully customizable:
 
----
+text: display your string
+
+textSize: set font size (default: 14)
+
+textColor: set text color (default: Colors.white)
+
+letterSpacing: set letter spacing (default: 1)
+
+textFamily: choose any font
+
+shimmerColors: define your gradient colors
+
+duration: control shimmer speed
+
+🎭 Compatible with all font families
+
+⚡ Lightweight & simple integration
+
+📱 Ideal for headings, premium UI, loading states, and more
 
 ## 📸 Preview
+![ShimmerText Dark Mode](https://github.com/Swayanshuu/shimmer_text/blob/main/media/bBG.gif?raw=true)
+![ShimmerText Light Mode](https://github.com/Swayanshuu/shimmer_text/blob/main/media/wBG.gif?raw=true)
+![ShimmerText](https://github.com/Swayanshuu/shimmer_text/blob/main/media/wSC.png?raw=true)
 
-(media/bBG.gif)
-(media/wBG.gif)
-(media/wSC.png)
-
-## 🛠️ Getting started
+## ## 🛠️ Getting started
 
 ### Prerequisites
+✅ Flutter SDK (latest stable version recommended)
 
-- ✅ Flutter SDK installed (latest stable version recommended)
-- ✅ A working Flutter project (`flutter create my_app`)
+✅ A Flutter project (flutter create my_app)
 
-### Installation
+Installation
+Add the package to your pubspec.yaml:
 
-Add this package to your `pubspec.yaml`:
-
-````yaml
+text
 dependencies:
-  shimmer_text:
-    shimmer_text: ^1.0.0 
+  shimmer_text: ^1.0.0
+Run flutter pub get to install.
 
+### 🚀 Usage
 
+Quick example:
 
-## 🚀 Usage
-Here’s a quick example:
-
+dart
 import 'package:flutter/material.dart';
 import 'package:shimmer_text/shimmer_text.dart';
 
@@ -91,9 +83,14 @@ class MyApp extends StatelessWidget {
 
 
 ## 📢 Additional Information
+💡 Purpose: Add a simple, visually appealing shimmer effect to any text.
 
-- 💡 **More info**: This package is built for adding a simple yet powerful shimmer effect to text.
-- 🤝 **Contributing**: Contributions are welcome! Feel free to open a PR if you’d like to add new features or fix bugs.
-- 🐛 **Reporting issues**: Found a bug or want to request a feature? Please open an issue on [GitHub Issues](https://github.com/Swayanshuu/shimmer_text.git/issues).
-- 📬 **Support**: You can reach out to the maintainer by opening issues, discussions, or contacting via GitHub profile.
-- 🔮 **Future plans**: Upcoming improvements may include shimmer directions, multiple gradients, and built-in presets.
+🤝 Contributions: PRs are welcome! Add features or fix bugs.
+
+🐛 Issues: Found a bug or want a new feature? Submit an issue.
+
+📬 Support: Reach out through GitHub Issues or Discussions.
+
+🔮 Future plans: Shimmer direction, multiple gradients, and built-in presets.
+
+Enjoy a premium shimmer effect with full flexibility!

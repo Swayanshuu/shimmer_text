@@ -1,6 +1,6 @@
 name: shimmer_text
 description: "A customizable Flutter widget that adds a smooth shimmer animation effect to your text. Perfect for loading screens, headings, and eye-catching titles."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/Swayanshuu/shimmer_text
 license: MIT
 
